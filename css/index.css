@@ -15,19 +15,20 @@
 
 .index-vision-left {
 	position: absolute;
-	left: 14%;
-	top: calc(50% - 34px);
+	left: 10%;
+	top: calc(50%);
 	width: 56px;
     height: 56px;
+	transform: translate(0, -25%);
 }
 
 .index-vision-right {
 	position: absolute;
-	right: 14%;
-	top: calc(50% - 34px);
+	right: 10%;
+	top: calc(50%);
 	width: 56px;
     height: 56px;
-	transform: rotate(180deg);
+	transform: rotate(180deg) translate(0, 25%);
 }
 
 .index-vision-pagination {
