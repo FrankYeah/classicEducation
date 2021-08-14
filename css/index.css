@@ -115,12 +115,8 @@
 	color: white;
 	background-color: #C0B263;
 	border: 0px;
-	cursor: pointer;
 }
 
-.index-school-btn:hover {
-	opacity: 0.8;
-}
 
 /* 國中 */
 
@@ -169,7 +165,7 @@
 .index-form-select-box::after {
 	content: '';
 	position: absolute;
-	top: 18px;
+	top: 22px;
 	right: 14px;
 	width: 0;
 	height: 0;
@@ -208,11 +204,6 @@
 	color: white;
 	background-color: #C0B263;
 	border: 0px;
-	cursor: pointer;
-}
-
-.index-form-btn:hover {
-	opacity: 0.8;
 }
 
 
