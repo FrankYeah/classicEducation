@@ -1,0 +1,339 @@
+/* 主視覺輪播 */
+
+
+
+/* 國小 */
+
+.index-school {
+	padding: 48px 0px 71px;
+	background-color: rgb(250, 250, 240);
+}
+
+.index-school-title-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.index-school-left-line {
+	position: relative;
+	height: 1px;
+	width: 76px;
+	background-color: #C0B263;
+}
+
+.index-school-left-line::after {
+	content: '';
+	position: absolute;
+	right: 0px;
+    bottom: -4px;
+	width: 9px;
+	height: 9px;
+	background-color: #C0B263;
+	transform: rotate(45deg);
+}
+
+.index-school-title {
+	font-size: 32px;
+	margin: 0px 24px;
+}
+
+.index-school-right-line {
+	position: relative;
+	height: 1px;
+	width: 76px;
+	background-color: #C0B263;
+}
+
+.index-school-right-line::after {
+	content: '';
+	position: absolute;
+	left: 0px;
+    bottom: -4px;
+	width: 9px;
+	height: 9px;
+	background-color: #C0B263;
+	transform: rotate(45deg);
+}
+
+.index-school-book-outer {
+	max-width: 964px;
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+    margin: 47px auto 0px;
+}
+
+.index-school-book-box {
+	width: 300px;
+	height: 100%;
+	padding-bottom: 32px;
+	background: #FFFFFF;
+	filter: drop-shadow(0px 4px 12px rgba(122, 117, 79, 0.12));
+	cursor: pointer;
+}
+
+.index-school-book-box:hover {
+	filter: drop-shadow(0px 4px 24px rgba(122, 117, 79, 0.32));
+}
+
+.index-school-text-box {
+	padding: 12px;
+}
+
+.index-school-book {
+	width: 100%;
+	height: auto;
+}
+
+.index-school-head {
+	margin-top: 13px;
+	font-size: 24px;
+}
+
+.index-school-text {
+	margin-top: 16px;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.index-school-desc {
+	margin-top: 12px;
+	font-size: 14px;
+	color: #A2A2A2;
+}
+
+.index-school-btn-box {
+	margin: 61px 0px 0px;
+	text-align: center;
+}
+
+.index-school-btn {
+	width: 176px;
+	height: 53px;
+	line-height: 53px;
+	color: white;
+	background-color: #C0B263;
+	border: 0px;
+	cursor: pointer;
+}
+
+.index-school-btn:hover {
+	opacity: 0.8;
+}
+
+/* 國中 */
+
+.index-school-junior {
+	background-color: #E5E0C8;
+}
+
+
+/* 高中 */
+
+
+/* 教師回饋 */
+
+.index-form {
+	padding: 48px 0px 45px;
+}
+
+.index-form-title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.index-form-form {
+	max-width: 964px;
+	width: 100%;
+	margin: 37px auto 0px;
+}
+
+.index-form-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+}
+
+.index-form-input {
+	width: calc(50% - 56px);
+	border: 1px solid #DCD9D2;
+	padding: 13px;
+}
+
+.index-form-select-box {
+	position: relative;
+	width: calc(50% - 28px);
+}
+
+.index-form-select-box::after {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 14px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 8px 0 8px;
+	border-color: #C0B263 transparent transparent transparent;
+}
+
+.index-form-select {
+	position: relative;
+	width: 100%;
+	border: 1px solid #DCD9D2;
+	padding: 13px;
+}
+
+.index-form-option {
+	
+}
+
+.index-form-textarea {
+	width: calc(100% - 28px);
+	height: 238px;
+	padding: 14px;
+	border: 1px solid #DCD9D2;
+}
+
+.index-form-btn-box {
+	margin-top: 36px;
+	text-align: center;
+}
+
+.index-form-btn {
+	width: 176px;
+	height: 53px;
+	line-height: 53px;
+	color: white;
+	background-color: #C0B263;
+	border: 0px;
+	cursor: pointer;
+}
+
+.index-form-btn:hover {
+	opacity: 0.8;
+}
+
+
+
+@media( max-width: 1023px ){
+
+	/* 主視覺輪播 */
+
+
+
+	/* 國小 */
+
+	.index-school {
+
+	}
+
+	.index-school-title-box {
+
+	}
+
+	.index-school-left-line {
+
+	}
+
+	.index-school-title {
+
+	}
+
+	.index-school-right-line {
+
+	}
+
+	.index-school-book-outer {
+
+	}
+
+	.index-school-book-box {
+
+	}
+
+	.index-school-book {
+
+	}
+
+	.index-school-head {
+
+	}
+
+	.index-school-text {
+
+	}
+
+	.index-school-desc {
+
+	}
+
+	.index-school-btn-box {
+
+	}
+
+	.index-school-btn {
+		
+	}
+
+	/* 國中 */
+
+	.index-school-junior {
+		
+	}
+
+	/* 高中 */
+
+
+	/* 教師回饋 */
+
+	.index-form {
+
+	}
+	
+	.index-form-title {
+		
+	}
+	
+	.index-form-form {
+		
+	}
+	
+	.index-form-row {
+		
+	}
+	
+	.index-form-input {
+		
+	}
+
+	.index-form-select-box {
+
+	}
+	
+	.index-form-select-box::after {
+
+	}
+	
+	.index-form-select {
+		
+	}
+	
+	.index-form-option {
+		
+	}
+
+	.index-form-textarea {
+	
+	}
+	
+	.index-form-btn-box {
+		
+	}
+	
+	.index-form-btn {
+		
+	}
+
+}
