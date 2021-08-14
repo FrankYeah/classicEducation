@@ -1,6 +1,54 @@
 /* 主視覺輪播 */
 
+.index-vision {
+	position: relative;
+	margin-bottom: -4px;
+}
 
+.mySwiper {
+
+}
+
+.index-vision-img {
+	width: 100%;
+}
+
+.index-vision-left {
+	position: absolute;
+	left: 14%;
+	top: calc(50% - 34px);
+	width: 56px;
+    height: 56px;
+}
+
+.index-vision-right {
+	position: absolute;
+	right: 14%;
+	top: calc(50% - 34px);
+	width: 56px;
+    height: 56px;
+	transform: rotate(180deg);
+}
+
+.index-vision-pagination {
+	position: absolute;
+	right: calc(50% - 20px);
+	bottom: 56px;
+}
+
+.swiper-pagination-bullet {
+	width: 16px;
+	height: 16px;	
+	margin-left: 8px;
+	background-color: white;
+	opacity: 0.6;
+}
+
+
+.swiper-pagination-bullet-active {
+	background-color: white;
+	opacity: 1;
+}
 
 /* 國小 */
 
@@ -212,7 +260,25 @@
 
 	/* 主視覺輪播 */
 
+	.index-vision {
 
+	}
+	
+	.swiper-container1 {
+		
+	}
+	
+	.index-vision-img {
+		
+	}
+	
+	.index-vision-left {
+	
+	}
+	
+	.index-vision-right {
+		
+	}
 
 	/* 國小 */
 

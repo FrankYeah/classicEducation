@@ -70,7 +70,7 @@ $(document).ready(function(){
 	var swiper1 = new Swiper('.swiper-container1', {
 		loop: true,
 		lazy: true,
-		autoplay: 1000,
+		autoplay: 100,
 		slidesPerView: 1
 	});
 
