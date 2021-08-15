@@ -209,6 +209,8 @@ button:hover {
 }
 
 .footer-img {
+	width: 49px;
+    height: auto;
 	margin-left: 20px;
 	cursor: pointer;
 }
