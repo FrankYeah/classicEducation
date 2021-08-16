@@ -134,11 +134,13 @@ button:hover {
 }
 
 .header-logo {
-	width: 152px;
-	height: 55px;
 	background-color: #F6F3EC;
 	margin-right: 4px;
 	cursor: pointer;
+}
+
+.header-logo-icon {
+	height: 55px;
 }
 
 .header-text {
