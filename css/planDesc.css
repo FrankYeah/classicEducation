@@ -1,0 +1,86 @@
+html body {
+    background-color: rgb(246, 243, 236);
+}
+
+.plan-img-box {
+    max-width: 964px;
+    width: 100%;
+    margin: 53px auto 0px;
+}
+
+.plan-img {
+    width: 100%;
+}
+
+.plan-intro-box {
+    max-width: 964px;
+    width: 100%;
+    margin: 34px auto 64px;
+}
+
+.plan-title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-title-left-line {
+    position: relative;
+    height: 1px;
+    width: 76px;
+    background-color: #C0B263;
+}
+
+.plan-title-left-line::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+    width: 9px;
+    height: 9px;
+    background-color: #C0B263;
+    transform: rotate(45deg);
+}
+
+.plan-title-right-line {
+    position: relative;
+    height: 1px;
+    width: 76px;
+    background-color: #C0B263;
+}
+
+.plan-title-right-line::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 9px;
+    height: 9px;
+    background-color: #C0B263;
+    transform: rotate(45deg);
+}
+
+.plan-title {
+    margin: 0px 24px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.plan-text {
+    margin-top: 24px;
+    line-height: 32px;
+}
+
+.plan-teacher-box {
+    margin: auto;
+    padding: 48px 0px 89px;
+    background-color: white;
+}
+
+.plan-teacher {
+    max-width: 964px;
+    width: 100%;
+    height: 317px;
+    margin: 41px auto 0px;
+    background-color: #E1DEC6;
+}
