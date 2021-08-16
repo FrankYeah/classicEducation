@@ -1,0 +1,144 @@
+html body {
+    background-color: rgb(246, 243, 236);
+}
+
+.school-title-box {
+    width: 100%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E0CC;
+    background-image: url('../img/icon/elementory-icon.png');
+    background-size: cover;
+}
+
+/* junior */
+
+.school-title-box-junior {
+    background-image: url('../img/icon/junior-icon.png');
+}
+
+/* senior */
+
+.school-title-box-senior {
+    background-image: url('../img/icon/senior-icon.png');
+}
+
+/*  */
+
+.school-left-line {
+    position: relative;
+    height: 1px;
+    width: 76px;
+    background-color: #C0B263;
+}
+
+.school-left-line::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
+    width: 9px;
+    height: 9px;
+    background-color: #C0B263;
+    transform: rotate(45deg);
+}
+
+.school-title {
+    margin: 0px 24px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.school-right-line {
+    position: relative;
+    height: 1px;
+    width: 76px;
+    background-color: #C0B263;
+}
+
+.school-right-line::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    width: 9px;
+    height: 9px;
+    background-color: #C0B263;
+    transform: rotate(45deg);
+}
+
+.school-main-box {
+    max-width: 964px;
+    width: 100%;
+    margin: 32px auto 89px;
+}
+
+.school-desc-box {
+    display: flex;
+    align-items: center;
+}
+
+.school-desc {
+    color: #A1A1A1;
+    cursor: pointer;
+}
+
+.school-desc:hover {
+    opacity: 0.8;
+}
+
+.school-desc-icon {
+    color: #A1A1A1;
+    margin: 4px 12px 0px;
+}
+
+.school-content-outer-box {
+    max-width: 964px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 32px auto 0px;
+}
+
+.school-content-box {
+    width: 300px;
+    height: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 32px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 12px rgba(122, 117, 79, 0.12));
+    cursor: pointer;
+}
+
+.school-content-box:hover {
+	filter: drop-shadow(0px 4px 24px rgba(122, 117, 79, 0.32));
+}
+
+.school-content-img {
+    width: 100%;
+    height: auto;
+}
+
+.school-content-inner-box {
+    padding: 12px;
+}
+
+.school-content-title {
+    margin-top: 13px;
+    font-size: 24px;
+}
+
+.school-content-text {
+    margin-top: 16px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.school-content-desc {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #A2A2A2;
+}

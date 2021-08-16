@@ -126,6 +126,7 @@ button:hover {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 30px;
+	background-color: white;
 }
 
 .header-left-box {
@@ -223,6 +224,7 @@ button:hover {
 
 .footer-copyright {
 	height: 57px;
+	background-color: white;
 	line-height: 57px;
 	text-align: center;
 }
