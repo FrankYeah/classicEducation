@@ -72,7 +72,7 @@ html body {
 .school-main-box {
     max-width: 964px;
     width: 100%;
-    margin: 32px auto 89px;
+    margin: 32px auto 0px;
 }
 
 .school-desc-box {
@@ -143,4 +143,37 @@ html body {
     margin-top: 20px;
     font-size: 14px;
     color: #A2A2A2;
+}
+
+/* 頁碼 */
+
+.school-page {
+    max-width: 964px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 64px;
+}
+
+.school-page-left {
+    display: flex;
+    color: #C0B263;
+}
+
+.school-page-prev {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.school-page-prev:hover {
+    opacity: 0.8;
+}
+
+.school-page-num {
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.school-page-num:hover {
+    opacity: 0.8;
 }
