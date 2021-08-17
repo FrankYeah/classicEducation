@@ -1,0 +1,392 @@
+html body {
+    background-color: rgb(246, 243, 236);
+}
+
+.content-pin-box {
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 24px auto 0px;
+    color: #A1A1A1;
+}
+
+.content-pin-text {
+    cursor: pointer;
+}
+
+.content-pin-icon {
+    color: #A1A1A1;
+    margin: 4px 12px 0px;
+}
+
+.content-main-box {
+    max-width: 980px;
+    width: 100%;
+    margin: 32px auto 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left-box {
+    width: 700px;
+}
+
+/* 輪播 */
+
+.content-rotate {
+    width: 700px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    position: relative;
+    width: 700px;
+    height: 20%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 10px 50px;
+}
+
+.swiper-button-next {
+    width: 12px;
+    height: auto;
+    top: 65px;
+    background-image: none;
+}
+
+.swiper-button-prev {
+    width: 12px;
+    height: auto;
+    top: 65px;
+    transform: rotate(180deg);
+    background-image: none;
+}
+
+.mySwiper .swiper-slide {
+    width: 20%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.mySwiper2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 輪播 */
+
+.content-title {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.content-name-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.content-name {
+    color: #A1A1A1;
+}
+
+.content-text {
+    margin-top: 17px;
+    line-height: 1.4;
+}
+
+.content-download-box {
+    display: flex;
+    margin-top: 24px;
+}
+
+.content-download1 {
+    width: 176px;
+    height: 53px;
+    line-height: 53px;
+    margin-right: 24px;
+    text-align: center;
+    color: white;
+    background-color: #C0B263;
+    cursor: pointer;
+}
+
+.content-download1:hover {
+    opacity: 0.8;
+}
+
+.content-download2 {
+    width: 176px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    color: white;
+    background-color: #518996;
+}
+
+.content-download2:hover {
+    opacity: 0.8;
+}
+
+.content-social-box {
+    margin-top: 33px;
+}
+
+.content-social-icon {
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.content-social-icon:hover {
+    opacity: 0.8;
+}
+
+.content-next-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #C0B263;
+}
+
+.content-prev {
+    cursor: pointer;
+}
+
+.content-prev:hover {
+    opacity: 0.8;
+}
+
+.content-next {
+    cursor: pointer;
+}
+
+.content-next:hover {
+    opacity: 0.8;
+}
+
+.content-recommend-title {
+    font-size: 24px;
+    margin-top: 40px;
+    color: #C0B263;
+}
+
+.content-recommend {
+    margin-top: 14px;
+    color: #C0B263;
+}
+
+.content-line {
+    width: 100%;
+    height: 1px;
+    background-color: #D3D1C4;
+    margin-top: 40px;
+}
+
+.content-message {
+    height: 200px;
+    background-color: white;
+}
+
+.content-reference-title {
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.content-reference {
+    display: flex;
+    margin-top: 18px;
+}
+
+.content-reference-link {
+    font-size: 14px;
+}
+
+.content-reference-img {
+    height: 180px;
+    margin: 0px 40px 4px 0px;
+}
+
+/* 右側 */
+
+.content-right-box {
+    width: 250px;
+}
+
+.content-activity-title {
+    
+}
+
+.content-activity-link-box {
+    margin-bottom: 8px;
+}
+
+.content-activity-link {
+}
+
+.content-activity-img {
+    width: 250px;
+    margin-top: 16px;
+}
+
+.content-activity-text {
+    margin: 4px 0px 24px;
+    font-size: 14px;
+}
+
+@media( max-width: 1023px ){
+
+    .content-pin-box {
+
+    }
+    
+    .content-pin-text {
+    
+    }
+    
+    .content-pin-icon {
+        
+    }
+    
+    .content-main-box {
+        
+    }
+    
+    .content-left-box {
+        
+    }
+    
+    /* 輪播 */
+    
+    .content- {
+    
+    }
+    
+    /* 輪播 */
+    
+    .content-title {
+        
+    }
+    
+    .content-download-box {
+        
+    }
+    
+    .content-download1 {
+        
+    }
+    
+    .content-download2 {
+        
+    }
+    
+    .content-social-box {
+        
+    }
+    
+    .content-social-icon {
+        
+    }
+    
+    .content-next-box {
+        
+    }
+    
+    .content-prev {
+        
+    }
+    
+    .content-next {
+        
+    }
+    
+    .content-recommend-title {
+        
+    }
+    
+    .content-recommend {
+        
+    }
+    
+    .content-line {
+        
+    }
+    
+    .content-message {
+        
+    }
+    
+    .content-reference-title {
+        
+    }
+    
+    .content-reference {
+        
+    }
+    
+    .content-reference-img {
+        
+    }
+    
+    .content-right-box {
+        
+    }
+    
+    .content-activity-title {
+        
+    }
+    
+    .content-activity-link {
+        
+    }
+    
+    .content-activity-img {
+        
+    }
+    
+    .content-activity-text {
+        
+    }
+
+}
