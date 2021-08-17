@@ -138,7 +138,9 @@ html body {
 }
 
 .school-content-desc {
-    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
     font-size: 14px;
     color: #A2A2A2;
 }
