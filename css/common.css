@@ -198,6 +198,12 @@ button:hover {
 	opacity: 0.8;
 }
 
+/* rwd header */
+
+.header-rwd-box {
+	display: none;
+}
+
 /* footer */
 
 .footer-main {
@@ -259,7 +265,7 @@ button:hover {
 @media( max-width: 1023px ){
 
 	html body{
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	a {
@@ -289,31 +295,70 @@ button:hover {
 	/* header */
 
 	.header-box {
-
+		display: none;
 	}
 
-	.header-left-box {
+	/* rwd header */
 
+	.header-rwd-box {
+		position: relative;
+		height: 44px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 28px 30px;
 	}
 
-	.header-logo {
+	.header-rwd-menu {
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100vw;
+		height: 100vh;
+		background-color: white;
+		z-index: 2;
+	}
 
+	.header-rwd-menu-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 28px 30px;
+	}
+
+	.header-logo-icon {
+		height: 44px;
 	}
 
 	.header-text {
-
+		font-size: 18px;
+		margin-bottom: 24px;
 	}
 
-	.header-right-box {
+	.header-text1 {
+		font-size: 18px;
+		margin-bottom: 24px;
+	}
 
+	.header-submenu {
+		position: initial;
+		display: none;
+		width: 100%;
+		margin-top: 12px;
+		padding: 16px 0px 4px 31px;
+		transform: translateX(-33px);
 	}
 
 	.header-input {
-
+		width: 210px;
+		margin-left: 32px;
+		font-size: 18px;
 	}
 
 	.header-search-icon {
-
+		width: 24px;
+		transform: translateY(5px);
 	}
 
 	/* footer */
