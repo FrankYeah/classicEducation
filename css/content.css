@@ -209,12 +209,14 @@ html body {
 .content-recommend-title {
     font-size: 24px;
     margin-top: 40px;
-    color: #C0B263;
 }
 
 .content-recommend {
     margin-top: 14px;
+}
+.content-recommend a {
     color: #C0B263;
+    margin-right: 24px;
 }
 
 .content-line {
@@ -226,6 +228,7 @@ html body {
 
 .content-message {
     height: 200px;
+    margin-top: 30px;
     background-color: white;
 }
 
@@ -259,7 +262,7 @@ html body {
 }
 
 .content-activity-link-box {
-    margin-bottom: 8px;
+    margin-bottom: 32px;
 }
 
 .content-activity-link {
@@ -278,7 +281,8 @@ html body {
 @media( max-width: 1023px ){
 
     .content-pin-box {
-
+        max-width: none;
+        width: calc(100% - 60px);
     }
     
     .content-pin-text {
@@ -290,59 +294,132 @@ html body {
     }
     
     .content-main-box {
-        
+        flex-direction: column;
+        margin: 32px auto 24px;
     }
     
     .content-left-box {
-        
+        width: calc(100% - 60px);
+        margin: auto;
     }
     
     /* 輪播 */
     
-    .content- {
+    .content-rotate {
+        width: 100%
+    }
     
+    .swiper-container {
+        
+    }
+    
+    .swiper-slide {
+
+    }
+    
+    .swiper-container {
+        
+    }
+    
+    .swiper-slide {
+        
+    }
+    
+    .mySwiper2 {
+        
+    }
+    
+    .mySwiper {
+        width: 100%;
+    }
+    
+    .swiper-button-next {
+        top: 69%;
+    }
+    
+    .swiper-button-prev {
+        top: 69%;
+    }
+    
+    .mySwiper .swiper-slide {
+        
+    }
+    
+    .mySwiper .swiper-slide-thumb-active {
+        
+    }
+    
+    .mySwiper2 .swiper-slide img {
+        
+    }
+    
+    .mySwiper .swiper-slide img {
+        
     }
     
     /* 輪播 */
     
     .content-title {
+        margin-top: 24px;
+        font-size: 24px;
+    }
+
+    .content-name-box {
+        flex-direction: column;
+        margin-top: 8px;
+    }
+    
+    .content-name {
+        margin-top: 8px;
+    }
+    
+    .content-text {
         
     }
     
     .content-download-box {
-        
+        flex-direction: column;
+        margin-top: 32px;
+        font-size: 19px;
     }
     
     .content-download1 {
-        
+        width: 100%;   
     }
     
     .content-download2 {
+        width: 100%;   
+        margin-top: 24px;
         
     }
     
     .content-social-box {
-        
+        margin-top: 25px;
+        text-align: center;
     }
     
     .content-social-icon {
-        
+        margin: 0px 10px;
     }
     
     .content-next-box {
-        
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 41px;
+        font-size: 18px;
     }
     
     .content-prev {
-        
+        margin: auto;
     }
     
     .content-next {
-        
+        margin: 32px auto 0px;
     }
     
     .content-recommend-title {
-        
+        font-size: 18px;
+        text-align: center;
     }
     
     .content-recommend {
@@ -362,19 +439,29 @@ html body {
     }
     
     .content-reference {
-        
+        flex-wrap: wrap;
     }
     
+    .content-reference-link {
+        margin-bottom: 32px;
+    }
+
     .content-reference-img {
         
     }
     
     .content-right-box {
-        
+        width: calc(100% - 60px);
+        margin: 0px auto 0px;
     }
     
     .content-activity-title {
-        
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .content-activity-link-box {
+        margin-bottom: 44px;
     }
     
     .content-activity-link {
@@ -382,11 +469,11 @@ html body {
     }
     
     .content-activity-img {
-        
+        width: 100%;
     }
     
     .content-activity-text {
-        
+        font-size: 18px;
     }
 
 }
