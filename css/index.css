@@ -308,17 +308,57 @@
 	}
 	
 	.index-vision-left {
-	
+		width: 24px;
+		height: 24px;
+		transform: translate(0, 32%);
 	}
 	
 	.index-vision-right {
-		
+		width: 24px;
+		height: 24px;
+		transform: rotate(180deg) translate(0, -32%);
+	}
+
+	.index-vision-pagination {
+		right: calc(50% - 14px);
+		bottom: 18px;
+	}
+	
+	.swiper-pagination-bullet {
+		width: 10px;
+		height: 10px;	
+		margin-left: 8px;
+		background-color: white;
+		opacity: 0.6;
+	}
+	
+	
+	.swiper-pagination-bullet-active {
+		background-color: white;
+		opacity: 1;
 	}
 
 	/* 國小 */
 
 	.index-school {
+		padding: 35px 0px 64px;
+	}
 
+	.index-elementory-icon1 {
+		right: 0px;
+    	width: 150px;
+	}
+	
+	.index-elementory-icon2 {
+		bottom: -32px;
+		left: 20px;
+		width: 70px;
+	}
+
+	.index-elementory-icon3 {
+		top: -40px;
+		right: 20px;
+		width: 80px;
 	}
 
 	.index-school-title-box {
@@ -330,7 +370,7 @@
 	}
 
 	.index-school-title {
-
+		font-size: 24px;
 	}
 
 	.index-school-right-line {
@@ -338,11 +378,13 @@
 	}
 
 	.index-school-book-outer {
-
+		flex-direction: column;
+		justify-content: center;
+		margin: 40px auto 0px;
 	}
 
 	.index-school-book-box {
-
+		margin: 0px auto 23px;
 	}
 
 	.index-school-book {
@@ -362,11 +404,11 @@
 	}
 
 	.index-school-btn-box {
-
+		margin: 17px 0px 0px;
 	}
 
 	.index-school-btn {
-		
+		width: 300px;
 	}
 
 	/* 國中 */
@@ -381,27 +423,31 @@
 	/* 教師回饋 */
 
 	.index-form {
-
+		padding: 48px 0px 64px;
 	}
 	
 	.index-form-title {
-		
+		font-size: 24px;
 	}
 	
 	.index-form-form {
-		
+		max-width: 300px;
+		margin: 49px auto 0px;
 	}
 	
 	.index-form-row {
-		
+		flex-direction: column;
+		margin-bottom: 0px;
 	}
 	
 	.index-form-input {
-		
+		width: calc(100% - 26px);
+		margin-bottom: 24px;
 	}
 
 	.index-form-select-box {
-
+		width: 100%;
+		margin-bottom: 34px;
 	}
 	
 	.index-form-select-box::after {
@@ -409,23 +455,23 @@
 	}
 	
 	.index-form-select {
-		
+		width: 300px;
 	}
 	
 	.index-form-option {
-		
+		width: 300px;
 	}
 
 	.index-form-textarea {
-	
+		height: 120px;
 	}
 	
 	.index-form-btn-box {
-		
+		margin-top: 32px;
 	}
 	
 	.index-form-btn {
-		
+		width: 300px;
 	}
 
 }

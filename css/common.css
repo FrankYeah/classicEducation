@@ -368,19 +368,22 @@ button:hover {
 	}
 
 	.footer-box {
-		
+		max-width: auto;
+		width: auto;
+		flex-direction: column;
+    	padding: 35px 58px 64px;
 	}
 	
 	.footer-column {
-	
+		margin-bottom: 24px;
 	}
 
 	.footer-column-school {
-
+		transform: none
 	}
 	
 	.footer-link {
-	
+		margin-bottom: 12px;
 	}
 	
 	.footer-row {
@@ -388,7 +391,7 @@ button:hover {
 	}
 	
 	.footer-img {
-		
+		margin: 0px 20px 0px 0px;
 	}
 
 	.footer-copyright {
