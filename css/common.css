@@ -306,7 +306,7 @@ button:hover {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 28px 30px;
+		padding: 30px 30px 28px;
 		background-color: white;
 	}
 
@@ -330,6 +330,14 @@ button:hover {
 
 	.header-logo-icon {
 		height: 44px;
+	}
+
+	#menuOut {
+		margin-top: 6px;
+	}
+
+	#menuIn {
+		margin-top: 6px;
 	}
 
 	.header-text {
