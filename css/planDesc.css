@@ -83,3 +83,63 @@ html body {
     margin: 41px auto 0px;
     color: #A1A1A1;
 }
+
+
+
+@media( max-width: 1023px ){
+
+    .plan-img-box {
+        max-width: none;
+        width: calc(100% - 60px);
+        margin: 48px auto 0px;
+    }
+    
+    .plan-img {
+        
+    }
+    
+    .plan-intro-box {
+        max-width: none;
+        width: calc(100% - 60px);
+        margin: 49px auto 64px;
+    }
+    
+    .plan-title-box {
+        
+    }
+    
+    .plan-title-left-line {
+       
+    }
+    
+    .plan-title-left-line::after {
+        
+    }
+    
+    .plan-title-right-line {
+        
+    }
+    
+    .plan-title-right-line::after {
+        
+    }
+    
+    .plan-title {
+        font-size: 24px;
+    }
+    
+    .plan-text {
+        
+    }
+    
+    .plan-teacher-box {
+        max-width: none;
+        padding: 48px 0px 64px;
+    }
+    
+    .plan-teacher {
+        max-width: none;
+        width: calc(100% - 60px);
+    }
+
+}
