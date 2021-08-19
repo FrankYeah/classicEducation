@@ -225,13 +225,6 @@
 	text-align: center;
 }
 
-.index-form-subtitle {
-	max-width: 964px;
-    width: 100%;
-	margin: 14px auto 0px;
-	text-align: center;
-}
-
 .index-form-form {
 	max-width: 964px;
 	width: 100%;
@@ -438,11 +431,6 @@
 	
 	.index-form-title {
 		font-size: 24px;
-	}
-
-	.index-form-subtitle {
-		max-width: 300px;
-		margin: 10px auto 0px;
 	}
 	
 	.index-form-form {
