@@ -174,6 +174,10 @@ html body {
     cursor: pointer;
 }
 
+.school-page-next {
+    cursor: pointer;
+}
+
 .school-page-select {
     color: #5F5442;
     text-decoration: underline;
