@@ -115,10 +115,20 @@ html body {
 
 /* 輪播 */
 
-.content-title {
+.content-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
+}
+
+.content-title {
     font-size: 32px;
     font-weight: 500;
+}
+
+.content-title-download {
+
 }
 
 .content-name-box {
@@ -266,6 +276,7 @@ html body {
 }
 
 .content-activity-link {
+    
 }
 
 .content-activity-img {
@@ -274,8 +285,14 @@ html body {
 }
 
 .content-activity-text {
-    margin: 4px 0px 24px;
+    margin: 4px 0px 0px;
     font-size: 14px;
+}
+
+.content-activity-download {
+    font-size: 14px;
+    margin: 2px 0px 24px;
+    color: #A1A1A1;
 }
 
 @media( max-width: 1023px ){
@@ -358,10 +375,23 @@ html body {
     }
     
     /* 輪播 */
+
+    .content-title-box {
+        flex-direction: column;
+        align-items: baseline;
+        margin-top: 24px;
+    }
     
     .content-title {
-        margin-top: 24px;
         font-size: 24px;
+    }
+    
+    .content-title-download {
+        margin-top: 4px;
+    }
+    
+    .content-title {
+        
     }
 
     .content-name-box {
@@ -474,6 +504,10 @@ html body {
     
     .content-activity-text {
         font-size: 18px;
+    }
+
+    .content-activity-download {
+
     }
 
 }
