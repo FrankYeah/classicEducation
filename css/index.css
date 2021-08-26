@@ -9,9 +9,15 @@
 
 }
 
+/* 0826修改 */
 .index-vision-img {
 	width: 100%;
+	height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
 }
+/* 0826修改 */
 
 .index-vision-left {
 	position: absolute;
@@ -306,9 +312,11 @@
 		
 	}
 	
+	/* 0826修改 */
 	.index-vision-img {
-		
+		height: 250px;
 	}
+	/* 0826修改 */
 	
 	.index-vision-left {
 		width: 24px;
